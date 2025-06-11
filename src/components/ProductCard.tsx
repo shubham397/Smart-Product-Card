@@ -9,6 +9,7 @@ type Product = {
   originalPrice?: number;
   discount?: number;
   rating: number;
+  review: number;
 };
 
 interface Props {
@@ -43,6 +44,7 @@ const ProductCard: React.FC<Props> = ({ product }) => {
               color={i < product.rating ? "#facc15" : "#d1d5db"}
             />
           ))}
+          ({product.review})
         </div>
       </div>
     </div>
