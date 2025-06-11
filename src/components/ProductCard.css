@@ -1,0 +1,84 @@
+.product-card {
+  width: 240px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  background: white;
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.product-card:hover img {
+  transform: scale(1.1);
+}
+
+.hover-icons {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  gap: 8px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.product-card:hover .hover-icons {
+  opacity: 1;
+}
+
+.hover-icons svg {
+  background: white;
+  padding: 6px;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  color: #1f2937;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #ef4444;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.product-info {
+  padding: 12px;
+}
+
+.price {
+  font-weight: bold;
+  margin: 6px 0;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #9ca3af;
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+
+.rating {
+  display: flex;
+  gap: 2px;
+}

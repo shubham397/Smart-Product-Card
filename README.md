@@ -8,4 +8,3 @@ A modern, interactive product card component built with React. Perfect for e-com
 - 🛒 **“Add to Cart” and ❤️ “Wishlist” Icons on Hover**
 - 💰 **Price with Discount Badge**
 - ⭐ **Rating Stars Display**
-- 🎨 **Variant/Size Selector (Optional)**
