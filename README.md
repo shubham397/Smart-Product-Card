@@ -1,4 +1,4 @@
-# 🛍️ Smart Product Card (React)
+# 🛍️ Smart Product Card (React + Typescript)
 
 A modern, interactive product card component built with React. Perfect for e-commerce platforms to showcase products with engaging UI/UX features.
 
